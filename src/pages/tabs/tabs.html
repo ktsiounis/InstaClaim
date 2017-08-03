@@ -1,0 +1,7 @@
+<ion-tabs>
+  <ion-tab [root]="profilePage" tabIcon="contact" tabTitle="Profile"></ion-tab>
+  <ion-tab [root]="claimsPage" tabIcon="logo-buffer" tabTitle="Claims"></ion-tab>
+  <ion-fab bottom center>
+    <button ion-fab color="danger" (click)="presentActionSheet()"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+</ion-tabs>
